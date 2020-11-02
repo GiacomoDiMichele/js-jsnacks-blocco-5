@@ -30,7 +30,7 @@ $(document).ready(function() {
     for (var i = 0; i < bici.length; i++) {
         console.log(bici[i].peso);
         if (bici[i].peso == numero_minimo) {
-            console.log('è la bici con il peso minore');
+            console.log(bici[i].nome + ' è la bici con il peso minore');
         }
         else {
             console.log('non è la bici con il peso minore');
